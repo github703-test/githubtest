@@ -3,7 +3,7 @@ pipeline {
       stages {
             stage('Init') {
                   steps {
-                        echo 'Hi, this is vijay from IT'
+                        echo 'Hi, this is test'
                         echo 'We are Starting the Testing'
                   }
             }
@@ -12,7 +12,7 @@ pipeline {
                         echo 'Building Sample Maven Project'
                   }
             }
-            stage('Deploy prod') {
+            stage('pre - prod') {
                   steps {
                         echo "Deploying in production"
                   }
